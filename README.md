@@ -1,6 +1,6 @@
 # RF Intelligence Station: 433 MHz RF Receiver + ADS-B Aircraft Tracker
 
-A summer 2026 side project (June to August): two radio receivers feeding one Python dashboard, built to see what's actually on the air around Boulder.
+A summer 2026 side project (June to August): two radio receivers feeding one Python dashboard, built to see what's actually on the air in the Denver Area.
 
 - **Embedded receiver (STM32 + CC1101):** catches 433 MHz packets, timestamps them with a real-time clock, and streams them to a laptop over UART. The CC1101 driver is C built on the STM32 HAL SPI functions.
 - **SDR receiver (RTL-SDR + dump1090 / rtl_433):** tracks live aircraft over ADS-B (1090 MHz) and decodes known 433 MHz sensors so packets can be matched to real devices.
