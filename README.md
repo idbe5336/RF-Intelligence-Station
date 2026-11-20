@@ -5,7 +5,7 @@ A summer 2026 side project (June to August): two radio receivers feeding one Pyt
 - **Embedded receiver (STM32 + CC1101):** catches 433 MHz packets, timestamps them with a real-time clock, and streams them to a laptop over UART. The CC1101 driver is C built on the STM32 HAL SPI functions.
 - **SDR receiver (RTL-SDR + dump1090 / rtl_433):** tracks live aircraft over ADS-B (1090 MHz) and decodes known 433 MHz sensors so packets can be matched to real devices.
 
-![Dashboard](docs/dashboard.png)
+<img width="1999" height="1183" alt="image1" src="https://github.com/user-attachments/assets/48c66518-cfa2-4fcf-a582-6a8fcd6d19d4" />
 
 ## How it fits together
 
