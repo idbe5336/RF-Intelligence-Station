@@ -1,4 +1,4 @@
-# SIGINT Station: 433 MHz RF Receiver + ADS-B Aircraft Tracker
+# RF Intelligence Station: 433 MHz RF Receiver + ADS-B Aircraft Tracker
 
 A summer 2026 side project (June to August): two radio receivers feeding one Python dashboard, built to see what's actually on the air around Boulder.
 
